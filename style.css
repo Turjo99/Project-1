@@ -1,0 +1,134 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgba(255, 255, 255, 0.897);
+  font-family: "Raleway", sans-serif;
+  color: #262626;
+}
+.section-head {
+  display: flex;
+  align-items: center;
+}
+h1 {
+  font-size: 70px;
+  color: rgb(46, 46, 46);
+  font-weight: 800;
+}
+h2 {
+  font-size: 60px;
+  color: rgb(46, 46, 46);
+}
+p {
+  font-size: 20px;
+  margin-top: 70px;
+}
+.half-width {
+  width: 50%;
+  margin-left: 150px;
+}
+img {
+  width: 100%;
+}
+.orange {
+  color: orangered;
+}
+.btn {
+  margin-top: 70px;
+}
+a {
+  border-radius: 40px;
+  padding: 20px 40px 20px 40px;
+  color: white;
+  background: rgb(255, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 0, 0, 1) 0%,
+    rgba(232, 0, 0, 1) 0%,
+    rgba(255, 100, 3, 1) 47%,
+    rgba(255, 150, 2, 1) 100%,
+    rgba(241, 255, 15, 1) 100%
+  );
+  text-decoration: none;
+  text-align: center;
+  font-size: 30px;
+}
+.section-secondary {
+  display: flex;
+  margin-top: 200px;
+  background-image: url(/eat-healthy/images/shapes/Frame\ 58.jpg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: fixed; */
+  padding-top: 100px;
+  justify-content: center;
+  align-items: center;
+}
+.section-secondary .half-width {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.section-secondary img {
+  width: 100%;
+}
+.center {
+  text-align: center;
+}
+.section-recipes {
+  margin-top: 100px;
+}
+.cards {
+  display: flex;
+  margin-top: 100px;
+
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.margin-top {
+  margin-top: 60px;
+}
+.card {
+  width: 40%;
+  margin: 20px;
+  padding: 30px;
+  background-color: white;
+  border-radius: 50px;
+  box-shadow: 2px -9px 27px -5px rgba(107, 107, 107, 0.75);
+  -webkit-box-shadow: 2px -9px 27px -5px rgba(107, 107, 107, 0.75);
+  -moz-box-shadow: 2px -9px 27px -5px rgba(107, 107, 107, 0.75);
+  margin-bottom: 100px;
+}
+.card:hover {
+  color: azure;
+  background-color: teal;
+  transition: 0.5s;
+}
+.numbers {
+  display: flex;
+  margin-top: 100px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 30px;
+  background-color: whitesmoke;
+  border-radius: 50px;
+  text-align: center;
+  margin-bottom: 150px;
+}
+.number {
+  width: 30%;
+}
+.footer {
+  background-color: #000321;
+  padding: 50px;
+  color: aliceblue;
+}
+.footer h2 {
+  color: teal;
+}
